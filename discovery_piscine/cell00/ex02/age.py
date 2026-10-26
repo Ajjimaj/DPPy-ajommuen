@@ -1,3 +1,4 @@
+# Cell 1-2 Python
 age = 31
 bkk = 42
 
