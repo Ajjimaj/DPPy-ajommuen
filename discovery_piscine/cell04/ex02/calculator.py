@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-"""
 x = int(input("Give me the first number: "))
 y = int(input("Give me the second number: "))
 
@@ -9,8 +8,8 @@ print(f"{x} + {y} = {x + y}")
 print(f"{x} - {y} = {x - y}")
 print(f"{x} / {y} = {x / y:.2f}")
 print(f"{x} * {y} = {x * y}")
-"""
 
+"""
 # function
 def calculate():
         x = int(input("Give me the first number: "))
@@ -28,3 +27,4 @@ def calculate():
 if __name__ == "__main__":
     # function call
     calculate()
+"""
