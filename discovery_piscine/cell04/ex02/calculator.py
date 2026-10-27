@@ -1,15 +1,30 @@
 #!/usr/bin/env python3
 
+"""
 x = int(input("Give me the first number: "))
 y = int(input("Give me the second number: "))
 
-result_1 = x + y
-result_2 = x - y
-result_3 = x * y
-result_4 = x / y
-
 print("Thank you!")
-print(f"{x} + {y} = {result_1}")
-print(f"{x} - {y} = {result_2}")
-print(f"{x} x {y} = {result_3}")
-print(f"{x} / {y} = {result_4:.2f}")
+print(f"{x} + {y} = {x + y}")
+print(f"{x} - {y} = {x - y}")
+print(f"{x} / {y} = {x / y:.2f}")
+print(f"{x} * {y} = {x * y}")
+"""
+
+# function
+def calculate():
+        x = int(input("Give me the first number: "))
+        y = int(input("Give me the second number: "))
+
+        print("Thank you!")
+        print(f"{x} + {y} = {x + y}")
+        print(f"{x} - {y} = {x - y}")
+        print(f"{x} / {y} = {x / y:.2f}")
+        print(f"{x} * {y} = {x * y}")
+
+# __name__ == dunder name (ดันเดอร์ เนม)
+# ถ้า if __name__ == "__main__": เป็น จริง (True) ทำให้ฟังก์ชัน calculate() ถูกเรียกใช้งาน
+
+if __name__ == "__main__":
+    # function call
+    calculate()
