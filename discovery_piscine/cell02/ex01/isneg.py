@@ -1,4 +1,5 @@
-# cell 2-1 Python
+#!/usr/bin/python3
+# sheblank when run use chomd +x <filename>
 
 num = int(input())
 

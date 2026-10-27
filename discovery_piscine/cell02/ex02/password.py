@@ -1,7 +1,6 @@
-# cell 2-2 Python
+#!/usr/bin/python3
 
 password = input("Enter your password: ")
-
 
 if password == "Python is awesome":
     print("ACCESS GRANTED.")
