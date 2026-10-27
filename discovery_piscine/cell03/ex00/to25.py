@@ -7,4 +7,5 @@ if num > 25:
 else:
     while num <= 25:
         print(f"Inside the loop, my variable is {num}")
+        # print("Inside the loop, my variable is", num)
         num += 1
