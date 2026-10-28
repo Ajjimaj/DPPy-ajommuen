@@ -6,7 +6,8 @@ y = int(input("Give me the second number: "))
 print("Thank you!")
 print(f"{x} + {y} = {x + y}")
 print(f"{x} - {y} = {x - y}")
-print(f"{x} / {y} = {x / y:.2f}")
+print(f"{x} / {y} = {x // y}")
+# print(f"{x} / {y} = {x / y:.2f}")
 print(f"{x} * {y} = {x * y}")
 
 """
