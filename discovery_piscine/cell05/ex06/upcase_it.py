@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+import sys
+
+if len(sys.argv) > 1:
+    for text in sys.argv[1:]:
+        print(text.upper())
+else:
+    print("noun")
